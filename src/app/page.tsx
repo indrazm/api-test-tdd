@@ -1,5 +1,11 @@
-'use client';
+import { NoteInput } from '@/components/noteapp/noteInput';
+import { Notes } from '@/components/noteapp/notes';
 
 export default function Page() {
-  return <div>Hello!</div>;
+  return (
+    <div>
+      <Notes data={[]} />
+      <NoteInput />
+    </div>
+  );
 }

@@ -23,6 +23,8 @@
     "react/jsx-props-no-spreading": "off",
     "react/jsx-one-expression-per-line": "off",
     "object-curly-newline": "off",
+    "jsx-a11y/aria-role": "off",
+    "jsx-a11y/no-redundant-roles": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
